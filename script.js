@@ -166,3 +166,12 @@ console.log(globalConst); // I am a global const variable
 console.log(blockVar); // I am a block scoped variable
 // console.log(blockLet); // undefined
 // console.log(blockConst); // undefined
+
+// For each
+// Const variable: The variable defined using const cannot be reassigned.
+const name4 = "John";
+console.log(name4); // "John"
+
+name4 = "Mike"; // Error: Assignment to constant variable.
+
+// 
