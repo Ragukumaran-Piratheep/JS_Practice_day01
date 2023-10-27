@@ -191,9 +191,19 @@ job = "Designer";
 console.log(job); // "Designer"
 
 // How to remove an element from an array 
-let array = [1, 2, 3, 4, 5];
+let array1 = [1, 2, 3, 4, 5];
 let index = 2; // Index of the element to be removed
 
-array.splice(index, 1);
+array1.splice(index, 1);
 
-console.log(array); // [1, 2, 4, 5]
+console.log(array1); // [1, 2, 4, 5]
+
+// If you want to remove all instances of a particular value from an array, you can use the filter() method.
+let array = [1, 2, 3, 2, 1];
+let valueToRemove = 2;
+
+let newArray = array.filter(function(element) {
+ return element !== valueToRemove;
+});
+
+console.log(newArray); // [1, 3, 1]
