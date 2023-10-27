@@ -144,3 +144,25 @@ for (let i = 0; i < 5; i++) {
 // DOM Manipulation
 // Event handling
 // Call back (on click)
+
+
+
+
+// global scope
+var globalVar = 'I am a global variable';
+let globalLet = 'I am a global let variable';
+const globalConst = 'I am a global const variable';
+
+if (true) {
+    // block scope
+    var blockVar = 'I am a block scoped variable';
+    let blockLet = 'I am a block scoped let variable';
+    const blockConst = 'I am a block scoped const variable';
+}
+
+console.log(globalVar); // I am a global variable
+console.log(globalLet); // I am a global let variable
+console.log(globalConst); // I am a global const variable
+console.log(blockVar); // I am a block scoped variable
+// console.log(blockLet); // undefined
+// console.log(blockConst); // undefined
