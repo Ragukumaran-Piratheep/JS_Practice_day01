@@ -189,3 +189,11 @@ console.log(job); // "Engineer"
 
 job = "Designer";
 console.log(job); // "Designer"
+
+// How to remove an element from an array 
+let array = [1, 2, 3, 4, 5];
+let index = 2; // Index of the element to be removed
+
+array.splice(index, 1);
+
+console.log(array); // [1, 2, 4, 5]
