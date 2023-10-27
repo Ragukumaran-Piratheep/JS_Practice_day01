@@ -169,9 +169,16 @@ console.log(blockVar); // I am a block scoped variable
 
 // For each
 // Const variable: The variable defined using const cannot be reassigned.
-const name4 = "John";
-console.log(name4); // "John"
+// const name4 = "John";
+// console.log(name4); // "John"
 
-name4 = "Mike"; // Error: Assignment to constant variable.
+// name4 = "Mike"; // Error: Assignment to constant variable.
 
-// 
+// // 
+
+// Let variable: The variable defined using let can be reassigned.
+let age = 20;
+console.log(age); // 20
+
+age = 25;
+console.log(age); // 25
