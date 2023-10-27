@@ -182,3 +182,10 @@ console.log(age); // 20
 
 age = 25;
 console.log(age); // 25
+
+// Var variable: The variable defined using var can also be reassigned.
+var job = "Engineer";
+console.log(job); // "Engineer"
+
+job = "Designer";
+console.log(job); // "Designer"
